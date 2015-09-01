@@ -1,5 +1,5 @@
 # Engine Name
-*The opening paragraph of an engine's Readme file should explain what the engine is and what makes it unique. Keep in mind that your README.md content will be viewed on engines.nanobox.io when published as well as other repo hosting providers, so it's important to set the context of it being a nanobox engine. For Example:*
+*The opening paragraph of an engine's Readme file should explain what the engine is and what makes it unique. Keep in mind that your README.md content will be viewed on [engines.nanobox.io](http://engines.nanobox.io) when published as well as other repo hosting providers, so it's important to set the context of it being a nanobox engine. For Example:*
 
 This is a nanobox engine that automates the deployment of Ruby on Rails web applications. It includes multiple options for ruby versions and web servers as well as flexible configuration options.
 
