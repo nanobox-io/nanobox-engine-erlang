@@ -1,3 +1,7 @@
+*This repo provides the basic structure for a [Nanobox engine](http://docs.nanobox.io/getting-started/engines/). Engines automate the building and configuration of application infrastructures. The Readme content below is sample content outlining what an engine Readme should contain.*
+
+---
+
 # Engine Name
 *The opening paragraph of an engine's Readme file should explain what the engine is and what makes it unique. Keep in mind that your README.md content will be viewed on [engines.nanobox.io](http://engines.nanobox.io) when published as well as other repo hosting providers, so it's important to set the context of it being a nanobox engine. For Example:*
 
