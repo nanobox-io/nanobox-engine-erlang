@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# $1 = code_dir
+
+# insert logic to determine if this engine should be used
+# documentation: http://docs.nanobox.io/engines/scripts/sniff/

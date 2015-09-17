@@ -1,0 +1,14 @@
+# The Enginefile provides Nanobox with information about the engine
+# View the documentation at https://docs.nanobox.io/engines/enginefile/
+
+name: 'engine-name'
+version: '0.1.0'
+summary: 'A short, one-sentence summary of the engine.'
+language: ruby
+stability: 'stable'
+license: 'MIT'
+generic: false
+
+authors:
+  - tyler@nanobox.io
+  - scott@nanobox.io
