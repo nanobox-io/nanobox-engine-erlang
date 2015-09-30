@@ -10,7 +10,7 @@ This is a nanobox engine that automates the deployment of Ruby on Rails web appl
 
 ## App Detection
 
-*Engines are have the ability to auto-detect the language/framework of an app through the [`sniff` script](http://docs.nanobox.io/engines/scripts/sniff/). Outline how the engine detects whether or not it shoulde be used for the application. For example:*
+*Engines have the ability to auto-detect the language/framework of an app through the [`sniff` script](http://docs.nanobox.io/engines/scripts/sniff/). Outline how the engine detects whether or not it shoulde be used for the application. For example:*
 
 To detect a Ruby on Rails app, this engine checks for the presence of a Gemfile. If a Gemfile, the engine then checks for the presence of the `rails` gem.
 
@@ -27,7 +27,7 @@ To detect a Ruby on Rails app, this engine checks for the presence of a Gemfile.
 
 
 ## Configuration Options
-*Each engine has the ability to expose Boxfile configuration options to users. The Readme file should document all of those options thoroughly. We suggest including an "Overview" code block that shows all of the options available as well as individual sections that address each option. For example:*
+*Each engine has the ability to expose Boxfile configuration options to users. The Readme file should document all available options thoroughly. We suggest including an "Overview" code block that shows all of the options available as well as individual sections that address each option. For example:*
 
 This engine exposes configuration option through the [Boxfile](http://docs.nanobox.io/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Nanobox. This engine makes the following options available.
 
@@ -92,4 +92,4 @@ build:
 ---
 
 ## Help & Support
-*Engine developers are responsible for supporting their published engines. Here you should provide information about how users can request help in case of issues. You could provide an email address or simply direct them to submit an issue to the project on Github.*
+*Engine developers are responsible for supporting their published engines. Here you should provide information about how users can request help in case of issues. You can provide an email address or simply direct them to submit an issue to the project on Github.*
