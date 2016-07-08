@@ -3,10 +3,15 @@
 # vim: ts=2 sw=2 ft=bash noet
 
 # source the Nos framework
-. /opt/nos/common.sh
+. /opt/nanobox/nos/common.sh
 
 # initialize Nos with the original arguments
 nos_init "$@"
 
+# source common lib
+. ${engine_lib_dir}/erlang.sh
+
 # insert process to prepare the environment for the build process
 # documentation: http://docs.nanobox.io/engines/scripts/prepare/
+
+install_runtime
