@@ -16,7 +16,7 @@ When [running a build](https://docs.nanboox.io/cli/build/), this engine compiles
 - `make`
 
 ## Configuration Options
-This engine exposes configuration options through the [boxfile.yml](http://docs.nanobox.io/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Nanobox. This engine makes the following options available.
+This engine exposes configuration options through the [boxfile.yml](http://docs.nanobox.io/app-config/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Nanobox. This engine makes the following options available.
 
 #### Overview of Boxfile Configuration Options
 ```yaml
@@ -32,7 +32,7 @@ code.build:
 ```
 ##### Quick Links
 [Erlang Settings](#erlang-settings)  
-[Node.js Settings](#node-js-settings)
+[Node.js Settings](#nodejs-settings)
 
 ---
 
@@ -42,7 +42,7 @@ The following setting allows you to define your Erlang runtime environment.
 ---
 
 #### runtime
-Specifies which Erlang runtime/version to use. The following runtimes are available:
+Specifies which Erlang runtime to use. The following runtimes are available:
 
 - erlang-18.0
 - erlang-18.1
@@ -77,7 +77,7 @@ code.build:
 
 ---
 
-### Node.js Runtime Settings
+### Node.js Settings
 Many applications utilize Javascript tools in some way. This engine allows you to specify which Node.js runtime you'd like to use.
 
 ---
