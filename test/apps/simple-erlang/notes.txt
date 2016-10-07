@@ -1,0 +1,12 @@
+# fetch rebar
+wget https://github.com/rebar/rebar/wiki/rebar
+chmod +x rebar
+
+# fetch deps with rebar
+./rebar get-deps
+
+# compile with rebar
+./rebar compile
+
+# run the app
+bin/run

@@ -2,16 +2,18 @@
 # -*- mode: bash; tab-width: 2; -*-
 # vim: ts=2 sw=2 ft=bash noet
 
-# source the Nos framework
-. /opt/nanobox/nos/common.sh
+cat <<-END
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::: NOT YET SUPPORTED !!!
 
-# initialize Nos with the original arguments
-nos_init "$@"
+We love erlang and would love the opportunity to support compiling and deploying
+erlang apps. To be honest, we weren't sure how much demand there would be for
+deploying erlang apps. Now that you're here, PLEASE TELL US about your app so we
+can determine the best way to compile and deploy it!
 
-# source common lib
-. ${engine_lib_dir}/erlang.sh
+irc   : #nanobox
+email : hello@nanobox.io
 
-# insert the build process used to prepare code for deployment
-# documentation: http://docs.nanobox.io/engines/scripts/build/
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+END
 
-compile
+exit 1
