@@ -11,9 +11,6 @@ nos_init "$@"
 # source common lib
 . ${engine_lib_dir}/erlang.sh
 
-# insert process to prepare the environment for the build process
-# documentation: http://docs.nanobox.io/engines/scripts/prepare/
-
-install_runtime
+install_runtime_packages
 
 exit 0

@@ -26,7 +26,7 @@ install_runtime_packages() {
   pkgs=("$(runtime)")
   
   # add any client dependencies
-  pkgs+=("$(query_dependencies)")
+  # pkgs+=("$(query_dependencies)")
 
   nos_install ${pkgs[@]}
 }
