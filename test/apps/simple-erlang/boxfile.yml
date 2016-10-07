@@ -1,3 +1,6 @@
 code.build:
-  engine: ../../../
-  # erlang#refactor/v1-pattern
+  # engine: ../../../
+  engine: erlang#refactor/v1-pattern
+  
+web.main:
+  start: 'erl -pa ebin deps/*/ebin -noshell -s hello_erlang_app'
