@@ -6,7 +6,7 @@ This is an Erlang engine used to launch Erlang apps on [Nanobox](http://nanobox.
 To use the Erlang engine, specify `erlang` as your `engine` in your boxfile.yml.
 
 ```yaml
-code.build:
+run.config:
   engine: erlang
 ```
 
@@ -20,8 +20,8 @@ This engine exposes configuration options through the [boxfile.yml](http://docs.
 
 #### Overview of Boxfile Configuration Options
 ```yaml
-code.build:
-  config:
+run.config:
+  engine.config:
     # Erlang Settings
     runtime: erlang-18.1
     make_target: 'my_project'
@@ -48,8 +48,8 @@ Specifies which Erlang runtime to use. The following runtimes are available:
 - erlang-18.1
 
 ```yaml
-code.build:
-  config:
+run.config:
+  engine.config:
     runtime: erlang-18.1
 ```
 
@@ -59,8 +59,8 @@ code.build:
 Defines which make task(s) should run when compiling the code.
 
 ```yaml
-code.build:
-  config:
+run.config:
+  engine.config:
     make_target: 'my_project'
 ```
 
@@ -70,8 +70,8 @@ code.build:
 Defines the directory from which the final, compiled code should be run.
 
 ```yaml
-code.build:
-  config:
+run.config:
+  engine.config:
     project_dir: dir_name
 ```
 
@@ -86,8 +86,8 @@ Many applications utilize Javascript tools in some way. This engine allows you t
 Specifies which Node.js runtime and version to use. You can view the available Node.js runtimes in the [Node.js engine documentation](https://github.com/nanobox-io/nanobox-engine-nodejs#runtime).
 
 ```yaml
-code.build:
-  config:
+run.config:
+  engine.config:
     nodejs_runtime: nodejs-4.4
 ```
 
